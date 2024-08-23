@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <main class="app-main">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Nova tarefa..." required>
+                <button type="submit">Adicionar</button>
+            </form>
+            <ul id="task-list">
+                <!-- Tarefas serão adicionadas aqui -->
+            </ul>
+        </main>
+        <footer class="app-footer">
+            <p>&copy; 2024 Meu App de Tarefas</p>
+        </footer>
+    </div>
+
+    <script src="lista.js"></script>
+</body>
+</html>
